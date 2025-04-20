@@ -1,18 +1,11 @@
-
 import React from 'react';
-
 const TestimonialSection: React.FC = () => {
-  return (
-    <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-30">
+  return <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-30">
       <div className="container max-w-6xl mx-auto">
         <div className="max-w-xl mx-auto text-center">
           <div className="mb-8">
             <div className="inline-block p-1 rounded-full bg-white mb-6">
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&q=80" 
-                alt="User testimonial" 
-                className="w-24 h-24 object-cover rounded-full"
-              />
+              <img alt="User testimonial" className="w-24 h-24 object-cover rounded-full" src="/lovable-uploads/9899e851-b6a4-4799-9b0e-1db26dbae6dd.jpg" />
             </div>
             
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-harlie-gray">
@@ -42,8 +35,6 @@ const TestimonialSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default TestimonialSection;
