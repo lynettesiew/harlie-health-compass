@@ -14,13 +14,13 @@ const CompanionSection: React.FC = () => {
       id: "curious",
       emoji: "🧠",
       title: "Curious",
-      description: "Thoughtful insights to help you better understand what's going on"
+      description: "Thoughtful insights to help you explore your patterns"
     },
     {
       id: "goal-getter",
       emoji: "🔥",
       title: "Goal-Getter",
-      description: "High-energy nudges and motivation to stay on track"
+      description: "High-energy support to keep you progressing"
     }
   ];
 
@@ -32,7 +32,7 @@ const CompanionSection: React.FC = () => {
             Support That Feels Like You
           </h2>
           <p className="text-lg text-muted-foreground">
-            Health isn't one-size-fits-all. Choose how Harlie shows up for you — and switch anytime.
+            Health isn't one-size-fits-all. Choose how Harlie shows up for you — and change it anytime.
           </p>
         </div>
         

@@ -41,8 +41,8 @@ const GapsSection: React.FC = () => {
   return (
     <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-20">
       <div className="container max-w-6xl mx-auto">
-        <div className="max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-harlie-gray text-center">
+        <div className="max-w-3xl mx-auto mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-harlie-gray">
             The Gaps That Get Women Hurt — And How Harlie Helps
           </h2>
         </div>

@@ -15,16 +15,19 @@ const SocialProofSection: React.FC = () => {
             <div className="md:w-1/2 flex flex-col items-center">
               <div className="text-7xl md:text-8xl font-bold text-harlie-rose mb-4">66%</div>
               <p className="text-lg text-center text-muted-foreground">
-                of women report being misdiagnosed or dismissed.*
+                of women say they've been misdiagnosed or dismissed*
               </p>
             </div>
             
             <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+              <p className="text-lg mb-4 text-harlie-gray">
+                Doctors spend only 13–24 minutes per visit
+              </p>
               <p className="text-lg mb-6 text-harlie-gray">
-                Harlie helps you speak their language — with science on your side.
+                Harlie helps you speak clearly — with science on your side.
               </p>
               <Button className="rounded-full px-8 py-6 gradient-button text-white font-medium hover:opacity-90 transition-all">
-                Learn How Harlie Can Help
+                Learn How Harlie Helps
               </Button>
             </div>
           </div>

@@ -15,15 +15,15 @@ const HeroSection: React.FC = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col items-center text-center max-w-2xl mx-auto animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-harlie-gray">
-            Your Health. Your Clarity. Your AI Companion.
+            Women's Health Deserves More Than a Guess.
           </h1>
           
           <p className="text-lg md:text-xl mb-8 text-muted-foreground">
-            Harlie connects the dots — turning your health data into clarity, guidance, and action.
+            Harlie helps you track what matters, spot patterns early, and walk into every doctor's appointment prepared.
           </p>
           
           <EmailCaptureForm 
-            buttonText="Join Early Access" 
+            buttonText="Join the Waitlist" 
             className="mb-4"
           />
           
@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
         <div className="mt-12 md:mt-16 flex justify-center">
           <img 
             src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-            alt="Woman relaxing with journal" 
+            alt="Woman journaling with natural light" 
             className="rounded-2xl shadow-lg max-w-full md:max-w-lg h-auto object-cover"
           />
         </div>

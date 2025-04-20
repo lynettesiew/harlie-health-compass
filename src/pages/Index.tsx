@@ -41,14 +41,14 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         <HeroSection />
+        <StorySection />
+        <GapsSection />
+        <SocialProofSection />
         <FeatureSection />
         <CompanionSection />
-        <GapsSection />
-        <StorySection />
-        <SocialProofSection />
-        <FAQSection />
         <TestimonialSection />
         <FinalCTASection />
+        <FAQSection />
       </main>
       <Footer />
     </div>

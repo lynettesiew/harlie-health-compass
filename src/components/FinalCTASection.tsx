@@ -19,10 +19,10 @@ const FinalCTASection: React.FC = () => {
           </div>
           
           <p className="text-sm text-muted-foreground">
-            Launching soon. Be the first to try it.
+            No spam. Just clarity and support.
           </p>
           
-          {/* Decorative connecting lines */}
+          {/* Decorative connecting dots visual */}
           <div className="relative mt-16">
             <div className="flex justify-center space-x-16">
               <div className="sparkle"></div>
