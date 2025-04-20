@@ -20,15 +20,15 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div 
       className={cn(
-        "p-8 rounded-3xl bg-white shadow-sm transition-all duration-300",
+        "p-12 rounded-3xl bg-white shadow-sm transition-all duration-300 flex flex-col items-center text-center min-h-[320px]",
         className
       )}
       style={style}
     >
-      <div className="mb-5 text-harlie-rose w-14 h-14 flex items-center justify-center bg-harlie-cream/30 rounded-2xl">
+      <div className="mb-6 w-16 h-16 flex items-center justify-center bg-harlie-blush rounded-full">
         {icon}
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-harlie-gray">{title}</h3>
+      <h3 className="text-xl font-semibold mb-4 text-harlie-gray">{title}</h3>
       <p className="text-muted-foreground text-base leading-relaxed">{description}</p>
     </div>
   );
