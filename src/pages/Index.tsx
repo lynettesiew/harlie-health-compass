@@ -1,9 +1,7 @@
-
 import React, { useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
 import FeatureSection from '@/components/FeatureSection';
 import CompanionSection from '@/components/CompanionSection';
-import GapsSection from '@/components/GapsSection';
 import StorySection from '@/components/StorySection';
 import FAQSection from '@/components/FAQSection';
 import SocialProofSection from '@/components/SocialProofSection';
@@ -12,7 +10,6 @@ import FinalCTASection from '@/components/FinalCTASection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
-  // Add scroll animation for elements
   useEffect(() => {
     const handleScroll = () => {
       const fadeElements = document.querySelectorAll('.animate-fade-in');
@@ -27,13 +24,10 @@ const Index = () => {
       });
     };
     
-    // Initial check
     handleScroll();
     
-    // Add scroll event listener
     window.addEventListener('scroll', handleScroll);
     
-    // Clean up
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   
@@ -41,12 +35,10 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         <HeroSection />
-        <FeatureSection />
-        <CompanionSection />
-        <GapsSection />
         <StorySection />
         <SocialProofSection />
-        <FAQSection />
+        <FeatureSection />
+        <CompanionSection />
         <TestimonialSection />
         <FinalCTASection />
       </main>
