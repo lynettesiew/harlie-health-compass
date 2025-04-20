@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PersonalityCard from './PersonalityCard';
 
 const CompanionSection: React.FC = () => {
-  const [selectedPersonality] = useState<string>("curious");
+  const [selectedPersonality, setState] = useState<string>("curious");
   
   const personalities = [
     {
