@@ -1,11 +1,16 @@
+
 import React from 'react';
 const TestimonialSection: React.FC = () => {
   return <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-30">
       <div className="container max-w-6xl mx-auto">
         <div className="max-w-xl mx-auto text-center">
           <div className="mb-8">
-            <div className="inline-block p-1 rounded-full bg-white mb-6">
-              <img alt="User testimonial" className="w-24 h-24 object-cover rounded-full" src="/lovable-uploads/9899e851-b6a4-4799-9b0e-1db26dbae6dd.jpg" />
+            <div className="inline-block p-1 rounded-full bg-white mb-6 mx-auto"> {/* Added mx-auto to center the image container */}
+              <img 
+                alt="User testimonial" 
+                className="w-24 h-24 object-cover rounded-full object-center" {/* Added object-center to center the image content */}
+                src="/lovable-uploads/9899e851-b6a4-4799-9b0e-1db26dbae6dd.jpg" 
+              />
             </div>
             
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-harlie-gray">
