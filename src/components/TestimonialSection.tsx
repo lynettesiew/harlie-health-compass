@@ -1,14 +1,16 @@
 
 import React from 'react';
+
 const TestimonialSection: React.FC = () => {
-  return <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-30">
+  return (
+    <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-30">
       <div className="container max-w-6xl mx-auto">
         <div className="max-w-xl mx-auto text-center">
           <div className="mb-8">
-            <div className="inline-block p-1 rounded-full bg-white mb-6 mx-auto"> {/* Added mx-auto to center the image container */}
+            <div className="inline-block p-1 rounded-full bg-white mb-6 mx-auto">
               <img 
                 alt="User testimonial" 
-                className="w-24 h-24 object-cover rounded-full object-center" {/* Added object-center to center the image content */}
+                className="w-24 h-24 object-cover rounded-full object-center" 
                 src="/lovable-uploads/9899e851-b6a4-4799-9b0e-1db26dbae6dd.jpg" 
               />
             </div>
@@ -40,6 +42,8 @@ const TestimonialSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default TestimonialSection;
