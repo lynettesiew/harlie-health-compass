@@ -1,7 +1,7 @@
 
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import { Calendar, Heart, MessageSquare, Star, User, Users } from 'lucide-react';
+import { Calendar, ChevronDown, Heart, MessageSquare, Star, User, Users } from 'lucide-react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from './ui/collapsible';
 
 const FeatureSection: React.FC = () => {
