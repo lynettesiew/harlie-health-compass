@@ -12,7 +12,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       title: "Track everything in one place",
-      description: "Your symptoms, meals, and mood all in one unified dashboard — so you don't have to juggle multiple apps.",
+      description: "We track your symptoms, meals, and mood all in one place — so you don't have to.",
       icon: <Calendar className="w-7 h-7" />
     },
     {
