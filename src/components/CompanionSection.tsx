@@ -46,6 +46,7 @@ const CompanionSection: React.FC = () => {
               title={personality.title}
               description={personality.description}
               isSelected={selectedPersonality === personality.id}
+              onClick={() => setSelectedPersonality(personality.id)}
               className="animate-fade-in"
             />
           ))}
