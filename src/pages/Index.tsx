@@ -5,6 +5,7 @@ import FeatureSection from '@/components/FeatureSection';
 import CompanionSection from '@/components/CompanionSection';
 import GapsSection from '@/components/GapsSection';
 import StorySection from '@/components/StorySection';
+import FAQSection from '@/components/FAQSection';
 import SocialProofSection from '@/components/SocialProofSection';
 import TestimonialSection from '@/components/TestimonialSection';
 import FinalCTASection from '@/components/FinalCTASection';
@@ -45,6 +46,7 @@ const Index = () => {
         <GapsSection />
         <StorySection />
         <SocialProofSection />
+        <FAQSection />
         <TestimonialSection />
         <FinalCTASection />
       </main>
