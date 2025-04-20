@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Brain } from "lucide-react";
 
 const GapsSection: React.FC = () => {
@@ -69,29 +68,10 @@ const GapsSection: React.FC = () => {
             </Card>
           ))}
         </div>
-
-        <div className="mt-12 md:hidden">
-          <Accordion type="single" collapsible className="w-full">
-            {gaps.map((gap, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-harlie-gray">{gap.title}</AccordionTrigger>
-                <AccordionContent>
-                  <ul className="space-y-3 py-2">
-                    {gap.points.map((point, pointIndex) => (
-                      <li key={pointIndex} className="flex items-start gap-2 text-muted-foreground">
-                        <span className="text-harlie-rose">✓</span>
-                        <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
       </div>
     </section>
   );
 };
 
 export default GapsSection;
+
