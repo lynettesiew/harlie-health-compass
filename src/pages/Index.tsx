@@ -3,6 +3,8 @@ import React, { useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
 import FeatureSection from '@/components/FeatureSection';
 import CompanionSection from '@/components/CompanionSection';
+import GapsSection from '@/components/GapsSection';
+import StorySection from '@/components/StorySection';
 import SocialProofSection from '@/components/SocialProofSection';
 import TestimonialSection from '@/components/TestimonialSection';
 import FinalCTASection from '@/components/FinalCTASection';
@@ -40,6 +42,8 @@ const Index = () => {
         <HeroSection />
         <FeatureSection />
         <CompanionSection />
+        <GapsSection />
+        <StorySection />
         <SocialProofSection />
         <TestimonialSection />
         <FinalCTASection />
