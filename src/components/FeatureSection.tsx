@@ -27,7 +27,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       title: "Smart, personalized guidance",
-      description: "We ask the right questions at the right time so you walk into every appointment fully prepared.",
+      description: "We guide you to ask the right questions so you walk into every appointment, prepared.",
       icon: <User className="w-7 h-7" />
     },
     {
