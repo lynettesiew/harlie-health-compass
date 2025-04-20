@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -41,16 +42,9 @@ const GapsSection: React.FC = () => {
     <section className="py-16 md:py-24 px-4 bg-harlie-blush bg-opacity-20">
       <div className="container max-w-6xl mx-auto">
         <div className="max-w-3xl mx-auto mb-12">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <img 
-              src="/lovable-uploads/de3b72c3-c267-4e3f-b712-f26f539a433f.png" 
-              alt="Brain icon" 
-              className="w-8 h-8 text-harlie-rose"
-            />
-            <h2 className="text-3xl md:text-4xl font-bold text-harlie-gray">
-              The Gaps That Get Women Hurt — And How Harlie Helps
-            </h2>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-harlie-gray text-center">
+            The Gaps That Get Women Hurt — And How Harlie Helps
+          </h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
