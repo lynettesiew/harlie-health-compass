@@ -1,34 +1,39 @@
 
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import { Calendar, Heart, MessageSquare, Star, User } from 'lucide-react';
+import { Calendar, Heart, MessageSquare, Star, User, Users } from 'lucide-react';
 
 const FeatureSection: React.FC = () => {
   const features = [
     {
-      title: "Log Everything That Matters",
-      description: "Track symptoms, nutrition, mood, and notes all in one place.",
-      icon: <Calendar className="w-7 h-7" />
-    },
-    {
-      title: "Spot Early Patterns",
-      description: "Identify trends that others might miss before they become bigger issues.",
+      title: "Spot patterns early",
+      description: "We help you identify trends so you can act before small issues become big ones.",
       icon: <Star className="w-7 h-7" />
     },
     {
-      title: "Prepare Doctor Summaries",
-      description: "Walk into every appointment with clear, organized information.",
-      icon: <MessageSquare className="w-7 h-7" />
+      title: "Track everything in one place",
+      description: "We track your symptoms, meals, and mood all in one place — so you don't have to.",
+      icon: <Calendar className="w-7 h-7" />
     },
     {
-      title: "Track Concerns Over Time",
-      description: "Flag and monitor symptoms to understand your patterns.",
+      title: "Highlight nutrition gaps",
+      description: "With gentle nudges, we help you stay balanced.",
       icon: <Heart className="w-7 h-7" />
     },
     {
-      title: "Personalized Support",
-      description: "Get guidance that matches your style and needs.",
+      title: "Log your concerns",
+      description: "We flag concerns when it matters, so nothing gets overlooked",
+      icon: <MessageSquare className="w-7 h-7" />
+    },
+    {
+      title: "Smart, personalized guidance",
+      description: "We guide you to ask the right questions so you walk into every appointment, prepared.",
       icon: <User className="w-7 h-7" />
+    },
+    {
+      title: "Adapt to your preferences",
+      description: "Choose calm, curious or here-to-push-you support.",
+      icon: <Users className="w-7 h-7" />
     }
   ];
 
@@ -37,7 +42,7 @@ const FeatureSection: React.FC = () => {
       <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-harlie-gray">
-            What Harlie Helps You Do
+            How Harlie Helps You Feel Clear, Confident, and In Control
           </h2>
         </div>
         

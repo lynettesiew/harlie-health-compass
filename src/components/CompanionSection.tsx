@@ -32,7 +32,7 @@ const CompanionSection: React.FC = () => {
             Support That Feels Like You
           </h2>
           <p className="text-lg text-muted-foreground">
-            Health isn't one-size-fits-all. Choose how Harlie shows up for you — and change it anytime.
+            Health isn't one-size-fits-all. Choose how Harlie shows up for you — and switch anytime.
           </p>
         </div>
         
