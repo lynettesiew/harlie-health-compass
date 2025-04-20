@@ -24,7 +24,7 @@ const GapsSection: React.FC = () => {
       title: "Rare or Complex Conditions",
       points: [
         "Capture cross-body symptoms in one place",
-        "Bring everything to your next opinion",
+        "Bring personalized insights to your next doctor's appointment.",
         "Structure what's been ruled out — and what hasn't"
       ]
     },
@@ -70,3 +70,4 @@ const GapsSection: React.FC = () => {
 };
 
 export default GapsSection;
+
