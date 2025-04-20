@@ -18,12 +18,15 @@ const PersonalityCard: React.FC<PersonalityCardProps> = ({
   return (
     <div 
       className={cn(
-        "p-6 rounded-2xl border border-transparent transition-all duration-300",
-        isSelected ? "bg-harlie-cream border-harlie-rose" : "bg-white border-gray-100",
+        "p-6 rounded-2xl border transition-all duration-300",
+        isSelected 
+          ? "bg-harlie-cream border-harlie-rose" 
+          : "bg-white border-gray-100 hover:border-harlie-neutral",
+        "flex flex-col gap-2",
         className
       )}
     >
-      <h3 className="text-lg font-medium mb-2 text-harlie-gray">{title}</h3>
+      <h3 className="text-lg font-medium text-harlie-gray">{title}</h3>
       <p className="text-muted-foreground text-sm">{description}</p>
     </div>
   );
