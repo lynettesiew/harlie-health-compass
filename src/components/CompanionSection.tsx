@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import PersonalityCard from './PersonalityCard';
 
@@ -23,7 +24,7 @@ const CompanionSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 px-4 bg-harlie-cream bg-opacity-50">
+    <section className="py-16 md:py-24 px-4 bg-harlie-cream bg-opacity-30">
       <div className="container max-w-6xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-harlie-gray">

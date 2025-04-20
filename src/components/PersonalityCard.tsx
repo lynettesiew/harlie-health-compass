@@ -18,8 +18,8 @@ const PersonalityCard: React.FC<PersonalityCardProps> = ({
   return (
     <div 
       className={cn(
-        "p-5 rounded-2xl border-2 border-transparent transition-all duration-300",
-        isSelected ? "border-harlie-rose bg-harlie-cream" : "bg-white",
+        "p-6 rounded-2xl border border-transparent transition-all duration-300",
+        isSelected ? "bg-harlie-cream border-harlie-rose" : "bg-white border-gray-100",
         className
       )}
     >
