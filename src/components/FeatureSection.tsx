@@ -17,7 +17,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       title: "Highlight nutrition gaps",
-      description: "With gentle nudges to help you stay balanced and make informed choices about your diet.",
+      description: "With gentle nudges, we help you stay balanced.",
       icon: <Heart className="w-7 h-7" />
     },
     {
