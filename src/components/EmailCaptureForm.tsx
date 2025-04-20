@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
 
 interface EmailCaptureFormProps {
   buttonText: string;
@@ -18,16 +19,25 @@ const EmailCaptureForm: React.FC<EmailCaptureFormProps> = ({
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      const { error } = await supabase
+        .from('waitlist_signups')
+        .insert([{ email }]);
+
+      if (error) throw error;
+
       toast.success("Thanks for joining! We'll be in touch soon.");
       setEmail('');
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error("Something went wrong. Please try again.");
+    } finally {
       setIsSubmitting(false);
-    }, 800);
+    }
   };
 
   return (
