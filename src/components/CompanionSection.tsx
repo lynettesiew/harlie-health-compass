@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import PersonalityCard from './PersonalityCard';
 
 const CompanionSection: React.FC = () => {
-  const [selectedPersonality, setSelectedPersonality] = useState<string>("curious");
+  const [selectedPersonality] = useState<string>("curious");
   
   const personalities = [
     {
@@ -46,7 +45,6 @@ const CompanionSection: React.FC = () => {
               title={personality.title}
               description={personality.description}
               isSelected={selectedPersonality === personality.id}
-              onClick={() => setSelectedPersonality(personality.id)}
               className="animate-fade-in"
             />
           ))}

@@ -20,16 +20,16 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div 
       className={cn(
-        "p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
+        "p-6 rounded-2xl bg-white shadow-sm transition-all duration-300",
         className
       )}
       style={style}
     >
-      <div className="mb-4 text-harlie-rose w-12 h-12 flex items-center justify-center bg-harlie-cream rounded-full">
+      <div className="mb-4 text-harlie-rose w-12 h-12 flex items-center justify-center bg-harlie-cream/50 rounded-xl">
         {icon}
       </div>
       <h3 className="text-lg font-semibold mb-2 text-harlie-gray">{title}</h3>
-      <p className="text-muted-foreground text-sm">{description}</p>
+      <p className="text-muted-foreground text-sm leading-relaxed">{description}</p>
     </div>
   );
 };
