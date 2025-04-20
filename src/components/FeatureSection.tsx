@@ -1,7 +1,7 @@
 
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import { Eye, Activity, Nutrition, Flag, HelpCircle, Smile } from 'lucide-react';
+import { Eye, Activity, Apple, Flag, HelpCircle, Smile } from 'lucide-react';
 
 const FeatureSection: React.FC = () => {
   const features = [
@@ -18,7 +18,7 @@ const FeatureSection: React.FC = () => {
     {
       title: "We highlight nutrition gaps",
       description: "And offer gentle nudges to help you stay balanced.",
-      icon: <Nutrition className="w-7 h-7" />
+      icon: <Apple className="w-7 h-7" />
     },
     {
       title: "We log your concerns",
