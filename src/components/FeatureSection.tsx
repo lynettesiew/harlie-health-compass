@@ -22,7 +22,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       title: "Log your concerns",
-      description: "Then flag them when it matters — so nothing gets overlooked during your healthcare visits.",
+      description: "We flag concerns when it matters, so nothing gets overlooked",
       icon: <MessageSquare className="w-7 h-7" />
     },
     {
