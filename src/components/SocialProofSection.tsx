@@ -1,8 +1,14 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
 const SocialProofSection: React.FC = () => {
+  const scrollToFeatures = () => {
+    const featuresSection = document.getElementById('harlie-features');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="py-16 md:py-24 px-4 bg-white">
       <div className="container max-w-6xl mx-auto">
@@ -26,7 +32,10 @@ const SocialProofSection: React.FC = () => {
               <p className="text-lg mb-6 text-harlie-gray">
                 Harlie helps you speak clearly — with science on your side.
               </p>
-              <Button className="rounded-full px-8 py-6 gradient-button text-white font-medium hover:opacity-90 transition-all">
+              <Button 
+                onClick={scrollToFeatures}
+                className="rounded-full px-8 py-6 gradient-button text-white font-medium hover:opacity-90 transition-all"
+              >
                 Learn How Harlie Helps
               </Button>
             </div>

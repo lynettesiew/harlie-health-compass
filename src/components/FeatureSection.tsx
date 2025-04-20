@@ -1,4 +1,3 @@
-
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import { Eye, Activity, Apple, Flag, HelpCircle, Smile } from 'lucide-react';
@@ -38,7 +37,7 @@ const FeatureSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 md:py-28 px-4 bg-gray-50/50">
+    <section id="harlie-features" className="py-20 md:py-28 px-4 bg-gray-50/50">
       <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-harlie-gray">
