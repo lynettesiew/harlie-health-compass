@@ -21,7 +21,7 @@ const PersonalityCard: React.FC<PersonalityCardProps> = ({
         "p-6 rounded-2xl border transition-all duration-300",
         isSelected 
           ? "bg-harlie-cream border-harlie-rose" 
-          : "bg-white border-gray-100 hover:border-harlie-neutral",
+          : "bg-white border-gray-100 hover:border-harlie-neutral hover:shadow-sm",
         "flex flex-col gap-2",
         className
       )}
