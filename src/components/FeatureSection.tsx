@@ -1,34 +1,39 @@
 
 import React from 'react';
 import FeatureCard from './FeatureCard';
-import { Calendar, FileText, Bell, BarChart2, Users } from 'lucide-react';
+import { Eye, Activity, Nutrition, Flag, HelpCircle, Smile } from 'lucide-react';
 
 const FeatureSection: React.FC = () => {
   const features = [
     {
-      title: "Log symptoms, meals, moods, and notes",
-      description: "Track everything that matters to your health in one secure place.",
-      icon: <Calendar className="w-7 h-7" />
+      title: "We help you spot patterns early",
+      description: "So you can take action before small issues become big ones.",
+      icon: <Eye className="w-7 h-7" />
     },
     {
-      title: "Catch patterns before they're missed",
-      description: "Identify trends early so you can act before small issues become big ones.",
-      icon: <BarChart2 className="w-7 h-7" />
+      title: "We track your symptoms, meals, and mood",
+      description: "All in one place — so you don't have to. That's peace of mind.",
+      icon: <Activity className="w-7 h-7" />
     },
     {
-      title: "Flag concerns and follow changes",
-      description: "Mark what's important and track how it evolves over time.",
-      icon: <Bell className="w-7 h-7" />
+      title: "We highlight nutrition gaps",
+      description: "And offer gentle nudges to help you stay balanced.",
+      icon: <Nutrition className="w-7 h-7" />
     },
     {
-      title: "Export summaries for your doctor",
-      description: "Bring organized, clear information to every appointment.",
-      icon: <FileText className="w-7 h-7" />
+      title: "We log your concerns",
+      description: "Then flag them when they matter — so nothing gets lost in the doctor's office.",
+      icon: <Flag className="w-7 h-7" />
     },
     {
-      title: "Choose how Harlie supports you",
-      description: "Select calm, curious, or goal-getter support based on your preference.",
-      icon: <Users className="w-7 h-7" />
+      title: "We guide you with smart, personalized questions",
+      description: "So you walk in prepared — not guessing what to ask.",
+      icon: <HelpCircle className="w-7 h-7" />
+    },
+    {
+      title: "We match our tone to your vibe",
+      description: "Want chill? Curious? A push to stay on track? You choose how Harlie shows up.",
+      icon: <Smile className="w-7 h-7" />
     }
   ];
 
