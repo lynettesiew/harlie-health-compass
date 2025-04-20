@@ -7,14 +7,24 @@ interface FeatureCardProps {
   description: string;
   icon: React.ReactNode;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, icon, className }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({ 
+  title, 
+  description, 
+  icon, 
+  className,
+  style 
+}) => {
   return (
-    <div className={cn(
-      "p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
-      className
-    )}>
+    <div 
+      className={cn(
+        "p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
+        className
+      )}
+      style={style}
+    >
       <div className="mb-4 text-harlie-rose w-12 h-12 flex items-center justify-center bg-harlie-cream rounded-full">
         {icon}
       </div>
