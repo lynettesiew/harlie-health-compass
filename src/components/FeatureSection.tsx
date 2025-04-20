@@ -32,7 +32,7 @@ const FeatureSection: React.FC = () => {
     },
     {
       title: "Adapt to your preferences",
-      description: "Choose calm, curious, or goal-oriented support that matches your personal style.",
+      description: "Choose calm, curious or here-to-push-you support.",
       icon: <Users className="w-7 h-7" />
     }
   ];
