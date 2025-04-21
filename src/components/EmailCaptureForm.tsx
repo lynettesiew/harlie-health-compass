@@ -55,10 +55,11 @@ const EmailCaptureForm: React.FC<EmailCaptureFormProps> = ({
         disabled={isSubmitting}
         className="rounded-full px-6 py-6 gradient-button text-white font-medium hover:opacity-90 transition-all"
       >
-        {isSubmitting ? "Joining..." : buttonText}
+        {isSubmitting ? "Joining..." : "Get Early Access"}
       </Button>
     </form>
   );
 };
 
 export default EmailCaptureForm;
+
